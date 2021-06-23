@@ -1,0 +1,2907 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
+  m_ShowMode: 4
+  m_Title: Game
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 875, y: 542}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 997
+  m_MinSize: {x: 875, y: 542}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 977
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 1
+  controlID: 7508
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 947
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 7509
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1452
+    height: 947
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 7560
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1452
+    height: 560
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 7561
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 373
+    height: 560
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 373
+    y: 0
+    width: 1079
+    height: 560
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 16}
+  - {fileID: 13}
+  - {fileID: 17}
+  - {fileID: 18}
+  m_Selected: 2
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 560
+    width: 1452
+    height: 387
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 22}
+  m_Selected: 0
+  m_LastSelected: 3
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1452
+    y: 0
+    width: 468
+    height: 947
+  m_MinSize: {x: 276, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 23}
+  m_Panes:
+  - {fileID: 23}
+  - {fileID: 24}
+  - {fileID: 25}
+  m_Selected: 0
+  m_LastSelected: 2
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 373
+    y: 73
+    width: 1077
+    height: 539
+  m_ViewDataDictionary: {fileID: 0}
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 921, y: 518}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_MaximizeOnPlay: 1
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 01000000000000000000000012000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -460.5
+    m_HBaseRangeMax: 460.5
+    m_VBaseRangeMin: -259
+    m_VBaseRangeMax: 259
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1077
+      height: 518
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 538.5, y: 259}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -538.5
+      y: -259
+      width: 1077
+      height: 518
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1077, y: 539}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000001000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 372
+    height: 539
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 00e40000
+      m_LastClickedID: 0
+      m_ExpandedIDs: f4acfdffac21feff6496fefff097feff7c99feff0257ffff0e57ffff1a57ffff2857ffff54fbffff76190100be2101003a29010048370100c64c0100984e01008a550100c4550100ae690100
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 9}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 88cc473b4235fef47908641a5f594a10
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 373
+    y: 73
+    width: 1077
+    height: 539
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 8234fe10ee3f32a48a73b5af04183e63
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 62.040485, y: 90.14015, z: 147.42677}
+    speed: 2
+    m_Value: {x: 62.040485, y: 90.14015, z: 147.42677}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0.00379258, y: 0.77527434, z: 0.0046466505, w: -0.6316943}
+    speed: 2
+    m_Value: {x: 0.0037925802, y: 0.77527434, z: 0.0046466505, w: -0.6316944}
+  m_Size:
+    m_Target: 12.124355
+    speed: 2
+    m_Value: 12.124355
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 455, y: 354}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 373
+    y: 73
+    width: 1077
+    height: 655
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 373
+    y: 73
+    width: 1077
+    height: 655
+  m_ViewDataDictionary: {fileID: 0}
+  m_Spl:
+    ID: 928
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 439
+    - 146
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 585
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 17}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[SniperCinematic][suite]'
+      name: SniperCinematic
+      fullName: SniperCinematic
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 'Interaction (29.313s)
+
+      ---
+
+      One or more child tests
+      had errors'
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 6bc21e4f
+      m_LastClickedID: 1327415915
+      m_ExpandedIDs: ff407c83ddbf58f1c623f6f39ba9b4114939b81e43cbc8386bc21e4fffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 17}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[DevSoulside][suite]'
+      name: DevSoulside
+      fullName: DevSoulside
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1097
+      uniqueId: '[Tests.dll][suite]'
+      name: Tests.dll
+      fullName: C:/Repos/soulside2020/dev/client/UnityClient/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[DevSoulside][suite]'
+    - id: 1098
+      uniqueId: Tests.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1097
+      parentUniqueId: '[Tests.dll][suite]'
+    - id: 1106
+      uniqueId: Tests.dll/Tests/[Tests][Tests.AppService][suite]
+      name: AppService
+      fullName: Tests.AppService
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1065
+      uniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.BeatFromToCopyHelperTest][suite]
+      name: BeatFromToCopyHelperTest
+      fullName: Tests.AppService.BeatFromToCopyHelperTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1106
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.AppService][suite]
+    - id: 1066
+      uniqueId: Tests.dll/Tests/AppService/BeatFromToCopyHelperTest/[Tests][Tests.AppService.BeatFromToCopyHelperTest.IfTheBeatContainTweakWith3dObjectItIsCopiedToTweaksNotTo3dObjects]
+      name: IfTheBeatContainTweakWith3dObjectItIsCopiedToTweaksNotTo3dObjects
+      fullName: Tests.AppService.BeatFromToCopyHelperTest.IfTheBeatContainTweakWith3dObjectItIsCopiedToTweaksNotTo3dObjects
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1065
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.BeatFromToCopyHelperTest][suite]
+    - id: 1067
+      uniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.BeatObjectsPortTest][suite]
+      name: BeatObjectsPortTest
+      fullName: Tests.AppService.BeatObjectsPortTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1106
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.AppService][suite]
+    - id: 1069
+      uniqueId: Tests.dll/Tests/AppService/BeatObjectsPortTest/[Tests][Tests.AppService.BeatObjectsPortTest.CreateRemoveObject3dTest]
+      name: CreateRemoveObject3dTest
+      fullName: Tests.AppService.BeatObjectsPortTest.CreateRemoveObject3dTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.BeatObjectsPortTest][suite]
+    - id: 1071
+      uniqueId: Tests.dll/Tests/AppService/BeatObjectsPortTest/[Tests][Tests.AppService.BeatObjectsPortTest.CreateRemoveStickerTest]
+      name: CreateRemoveStickerTest
+      fullName: Tests.AppService.BeatObjectsPortTest.CreateRemoveStickerTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.BeatObjectsPortTest][suite]
+    - id: 1068
+      uniqueId: Tests.dll/Tests/AppService/BeatObjectsPortTest/[Tests][Tests.AppService.BeatObjectsPortTest.WhenCreateObject3dIsCalledOnObject3dAddedCallbackIsCalled]
+      name: WhenCreateObject3dIsCalledOnObject3dAddedCallbackIsCalled
+      fullName: Tests.AppService.BeatObjectsPortTest.WhenCreateObject3dIsCalledOnObject3dAddedCallbackIsCalled
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.BeatObjectsPortTest][suite]
+    - id: 1070
+      uniqueId: Tests.dll/Tests/AppService/BeatObjectsPortTest/[Tests][Tests.AppService.BeatObjectsPortTest.WhenCreateStyckerAsyncIsCalledAddStickerIsCalled]
+      name: WhenCreateStyckerAsyncIsCalledAddStickerIsCalled
+      fullName: Tests.AppService.BeatObjectsPortTest.WhenCreateStyckerAsyncIsCalledAddStickerIsCalled
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.BeatObjectsPortTest][suite]
+    - id: 1072
+      uniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.ConverterTest][suite]
+      name: ConverterTest
+      fullName: Tests.AppService.ConverterTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1106
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.AppService][suite]
+    - id: 1073
+      uniqueId: Tests.dll/Tests/AppService/ConverterTest/[Tests][Tests.AppService.ConverterTest.TheDateTimeIsTheSameAfterConvertingToUnixTimestampAndBack]
+      name: TheDateTimeIsTheSameAfterConvertingToUnixTimestampAndBack
+      fullName: Tests.AppService.ConverterTest.TheDateTimeIsTheSameAfterConvertingToUnixTimestampAndBack
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1072
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.ConverterTest][suite]
+    - id: 1074
+      uniqueId: Tests.dll/Tests/AppService/ConverterTest/[Tests][Tests.AppService.ConverterTest.TheDateTimeIsTheSameAfterConvertingToUnixTimestampAndBackDateEarlier1970Year]
+      name: TheDateTimeIsTheSameAfterConvertingToUnixTimestampAndBackDateEarlier1970Year
+      fullName: Tests.AppService.ConverterTest.TheDateTimeIsTheSameAfterConvertingToUnixTimestampAndBackDateEarlier1970Year
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1072
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.ConverterTest][suite]
+    - id: 1075
+      uniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+      name: CreationPanelServiceTest
+      fullName: Tests.AppService.CreationPanelServiceTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1106
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.AppService][suite]
+    - id: 1081
+      uniqueId: Tests.dll/Tests/AppService/CreationPanelServiceTest/[Tests][Tests.AppService.CreationPanelServiceTest.ImageIsNotSelectableWhenImageCategoryIsNotOpen]
+      name: ImageIsNotSelectableWhenImageCategoryIsNotOpen
+      fullName: Tests.AppService.CreationPanelServiceTest.ImageIsNotSelectableWhenImageCategoryIsNotOpen
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+    - id: 1080
+      uniqueId: Tests.dll/Tests/AppService/CreationPanelServiceTest/[Tests][Tests.AppService.CreationPanelServiceTest.ImageIsSelectableWhenImageCategoryIsOpen]
+      name: ImageIsSelectableWhenImageCategoryIsOpen
+      fullName: Tests.AppService.CreationPanelServiceTest.ImageIsSelectableWhenImageCategoryIsOpen
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+    - id: 1084
+      uniqueId: Tests.dll/Tests/AppService/CreationPanelServiceTest/[Tests][Tests.AppService.CreationPanelServiceTest.Object3dIsNotSelectableWhenObject3dCategoryIsNotOpen]
+      name: Object3dIsNotSelectableWhenObject3dCategoryIsNotOpen
+      fullName: Tests.AppService.CreationPanelServiceTest.Object3dIsNotSelectableWhenObject3dCategoryIsNotOpen
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+    - id: 1085
+      uniqueId: Tests.dll/Tests/AppService/CreationPanelServiceTest/[Tests][Tests.AppService.CreationPanelServiceTest.Object3dIsSelectableWhenObject3dCategoryIsOpen]
+      name: Object3dIsSelectableWhenObject3dCategoryIsOpen
+      fullName: Tests.AppService.CreationPanelServiceTest.Object3dIsSelectableWhenObject3dCategoryIsOpen
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+    - id: 1079
+      uniqueId: Tests.dll/Tests/AppService/CreationPanelServiceTest/[Tests][Tests.AppService.CreationPanelServiceTest.StickerIsNotSelectableWhenStickerCategoryIsNotOpen]
+      name: StickerIsNotSelectableWhenStickerCategoryIsNotOpen
+      fullName: Tests.AppService.CreationPanelServiceTest.StickerIsNotSelectableWhenStickerCategoryIsNotOpen
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+    - id: 1078
+      uniqueId: Tests.dll/Tests/AppService/CreationPanelServiceTest/[Tests][Tests.AppService.CreationPanelServiceTest.StickerIsSelectableWhenStickerCategoryIsOpen]
+      name: StickerIsSelectableWhenStickerCategoryIsOpen
+      fullName: Tests.AppService.CreationPanelServiceTest.StickerIsSelectableWhenStickerCategoryIsOpen
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+    - id: 1083
+      uniqueId: Tests.dll/Tests/AppService/CreationPanelServiceTest/[Tests][Tests.AppService.CreationPanelServiceTest.TextIsNotSelectableWhenTextCategoryIsNotOpen]
+      name: TextIsNotSelectableWhenTextCategoryIsNotOpen
+      fullName: Tests.AppService.CreationPanelServiceTest.TextIsNotSelectableWhenTextCategoryIsNotOpen
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+    - id: 1082
+      uniqueId: Tests.dll/Tests/AppService/CreationPanelServiceTest/[Tests][Tests.AppService.CreationPanelServiceTest.TextIsSelectableWhenTextCategoryIsOpen]
+      name: TextIsSelectableWhenTextCategoryIsOpen
+      fullName: Tests.AppService.CreationPanelServiceTest.TextIsSelectableWhenTextCategoryIsOpen
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+    - id: 1077
+      uniqueId: Tests.dll/Tests/AppService/CreationPanelServiceTest/[Tests][Tests.AppService.CreationPanelServiceTest.WhenRequestOpenCategoryMethodIsCalledTheListenerOnCategoryOpenedMethodIsCalled]
+      name: WhenRequestOpenCategoryMethodIsCalledTheListenerOnCategoryOpenedMethodIsCalled
+      fullName: Tests.AppService.CreationPanelServiceTest.WhenRequestOpenCategoryMethodIsCalledTheListenerOnCategoryOpenedMethodIsCalled
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+    - id: 1076
+      uniqueId: Tests.dll/Tests/AppService/CreationPanelServiceTest/[Tests][Tests.AppService.CreationPanelServiceTest.WhenRequestOpenCategoryMethodIsCalledTheTryToSwitchCategoryIsCalled]
+      name: WhenRequestOpenCategoryMethodIsCalledTheTryToSwitchCategoryIsCalled
+      fullName: Tests.AppService.CreationPanelServiceTest.WhenRequestOpenCategoryMethodIsCalledTheTryToSwitchCategoryIsCalled
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1075
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.CreationPanelServiceTest][suite]
+    - id: 1086
+      uniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.TweakFromToCopyHelperTest][suite]
+      name: TweakFromToCopyHelperTest
+      fullName: Tests.AppService.TweakFromToCopyHelperTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1106
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.AppService][suite]
+    - id: 1094
+      uniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId][suite]
+      name: TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId
+      fullName: Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1086
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.TweakFromToCopyHelperTest][suite]
+    - id: 1091
+      uniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId(Object3d)]
+      name: TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId(Object3d)
+      fullName: Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId(Object3d)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1094
+      parentUniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId][suite]
+    - id: 1092
+      uniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId(Image)]
+      name: TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId(Image)
+      fullName: Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId(Image)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1094
+      parentUniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId][suite]
+    - id: 1093
+      uniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId(Text)]
+      name: TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId(Text)
+      fullName: Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId(Text)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1094
+      parentUniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheAddedObjectIdPropertyInRemoteTweakIsSetToRemoteObjectId][suite]
+    - id: 1096
+      uniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheUploadAudiosAndDeleteLocalMethodOfStorageUploaderIsCalledWithUrlsEqualToAudioIds]
+      name: TheUploadAudiosAndDeleteLocalMethodOfStorageUploaderIsCalledWithUrlsEqualToAudioIds
+      fullName: Tests.AppService.TweakFromToCopyHelperTest.TheUploadAudiosAndDeleteLocalMethodOfStorageUploaderIsCalledWithUrlsEqualToAudioIds
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1086
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.TweakFromToCopyHelperTest][suite]
+    - id: 1095
+      uniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheUploadImagesAndDeleteLocalMethodOfStorageUploaderIsCalledWithUrlsEqualToImageIds]
+      name: TheUploadImagesAndDeleteLocalMethodOfStorageUploaderIsCalledWithUrlsEqualToImageIds
+      fullName: Tests.AppService.TweakFromToCopyHelperTest.TheUploadImagesAndDeleteLocalMethodOfStorageUploaderIsCalledWithUrlsEqualToImageIds
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1086
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.TweakFromToCopyHelperTest][suite]
+    - id: 1090
+      uniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId][suite]
+      name: TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId
+      fullName: Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1086
+      parentUniqueId: Tests.dll/Tests/AppService/[Tests][Tests.AppService.TweakFromToCopyHelperTest][suite]
+    - id: 1087
+      uniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId(Object3d)]
+      name: TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId(Object3d)
+      fullName: Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId(Object3d)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1090
+      parentUniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId][suite]
+    - id: 1088
+      uniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId(Image)]
+      name: TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId(Image)
+      fullName: Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId(Image)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1090
+      parentUniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId][suite]
+    - id: 1089
+      uniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId(Text)]
+      name: TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId(Text)
+      fullName: Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId(Text)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1090
+      parentUniqueId: Tests.dll/Tests/AppService/TweakFromToCopyHelperTest/[Tests][Tests.AppService.TweakFromToCopyHelperTest.TheWhichBeatPropertyInRemoteTweakIsSetToRemoteBeatId][suite]
+    - id: 1104
+      uniqueId: Tests.dll/Tests/[BaseDomain][suite]
+      name: BaseDomain
+      fullName: Tests.BaseDomain
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1105
+      uniqueId: Tests.dll/Tests/BaseDomain/[Tests][Tests.BaseDomain.Event][suite]
+      name: Event
+      fullName: Tests.BaseDomain.Event
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1104
+      parentUniqueId: Tests.dll/Tests/[BaseDomain][suite]
+    - id: 1055
+      uniqueId: Tests.dll/Tests/BaseDomain/Event/[Tests][Tests.BaseDomain.Event.DomainEventsTest][suite]
+      name: DomainEventsTest
+      fullName: Tests.BaseDomain.Event.DomainEventsTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1105
+      parentUniqueId: Tests.dll/Tests/BaseDomain/[Tests][Tests.BaseDomain.Event][suite]
+    - id: 1058
+      uniqueId: Tests.dll/Tests/BaseDomain/Event/DomainEventsTest/[Tests][Tests.BaseDomain.Event.DomainEventsTest.EventHandlerShouldReceivedMultiplyTimesTheEventIfMultipleEventsWasAdded]
+      name: EventHandlerShouldReceivedMultiplyTimesTheEventIfMultipleEventsWasAdded
+      fullName: Tests.BaseDomain.Event.DomainEventsTest.EventHandlerShouldReceivedMultiplyTimesTheEventIfMultipleEventsWasAdded
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/BaseDomain/Event/[Tests][Tests.BaseDomain.Event.DomainEventsTest][suite]
+    - id: 1057
+      uniqueId: Tests.dll/Tests/BaseDomain/Event/DomainEventsTest/[Tests][Tests.BaseDomain.Event.DomainEventsTest.EventHandlerShouldReceiveHandleCallOnlyForSpecificEventType]
+      name: EventHandlerShouldReceiveHandleCallOnlyForSpecificEventType
+      fullName: Tests.BaseDomain.Event.DomainEventsTest.EventHandlerShouldReceiveHandleCallOnlyForSpecificEventType
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/BaseDomain/Event/[Tests][Tests.BaseDomain.Event.DomainEventsTest][suite]
+    - id: 1056
+      uniqueId: Tests.dll/Tests/BaseDomain/Event/DomainEventsTest/[Tests][Tests.BaseDomain.Event.DomainEventsTest.EventHandlerShouldReceiveHandleCallWhenEventIsFired]
+      name: EventHandlerShouldReceiveHandleCallWhenEventIsFired
+      fullName: Tests.BaseDomain.Event.DomainEventsTest.EventHandlerShouldReceiveHandleCallWhenEventIsFired
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/BaseDomain/Event/[Tests][Tests.BaseDomain.Event.DomainEventsTest][suite]
+    - id: 1060
+      uniqueId: Tests.dll/Tests/BaseDomain/Event/DomainEventsTest/[Tests][Tests.BaseDomain.Event.DomainEventsTest.IfTheClearEventsIsCalledThenNoEventsIsFired]
+      name: IfTheClearEventsIsCalledThenNoEventsIsFired
+      fullName: Tests.BaseDomain.Event.DomainEventsTest.IfTheClearEventsIsCalledThenNoEventsIsFired
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/BaseDomain/Event/[Tests][Tests.BaseDomain.Event.DomainEventsTest][suite]
+    - id: 1061
+      uniqueId: Tests.dll/Tests/BaseDomain/Event/DomainEventsTest/[Tests][Tests.BaseDomain.Event.DomainEventsTest.IfTheClearHandlersIsCalledThenNoEventsIsFired]
+      name: IfTheClearHandlersIsCalledThenNoEventsIsFired
+      fullName: Tests.BaseDomain.Event.DomainEventsTest.IfTheClearHandlersIsCalledThenNoEventsIsFired
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/BaseDomain/Event/[Tests][Tests.BaseDomain.Event.DomainEventsTest][suite]
+    - id: 1059
+      uniqueId: Tests.dll/Tests/BaseDomain/Event/DomainEventsTest/[Tests][Tests.BaseDomain.Event.DomainEventsTest.TwoEventHandlersShouldReceiveTheAppropriateEventsThatTheySubscribed]
+      name: TwoEventHandlersShouldReceiveTheAppropriateEventsThatTheySubscribed
+      fullName: Tests.BaseDomain.Event.DomainEventsTest.TwoEventHandlersShouldReceiveTheAppropriateEventsThatTheySubscribed
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/BaseDomain/Event/[Tests][Tests.BaseDomain.Event.DomainEventsTest][suite]
+    - id: 1062
+      uniqueId: Tests.dll/Tests/BaseDomain/Event/DomainEventsTest/[Tests][Tests.BaseDomain.Event.DomainEventsTest.WhenASubscribedHandlerUnsubscribesItShouldNotReceiveHandleMessage]
+      name: WhenASubscribedHandlerUnsubscribesItShouldNotReceiveHandleMessage
+      fullName: Tests.BaseDomain.Event.DomainEventsTest.WhenASubscribedHandlerUnsubscribesItShouldNotReceiveHandleMessage
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/BaseDomain/Event/[Tests][Tests.BaseDomain.Event.DomainEventsTest][suite]
+    - id: 1063
+      uniqueId: Tests.dll/Tests/BaseDomain/Event/DomainEventsTest/[Tests][Tests.BaseDomain.Event.DomainEventsTest.WhenASubscribedHandlerUnsubscribesTwiceItShouldNotReceiveHandleMessage]
+      name: WhenASubscribedHandlerUnsubscribesTwiceItShouldNotReceiveHandleMessage
+      fullName: Tests.BaseDomain.Event.DomainEventsTest.WhenASubscribedHandlerUnsubscribesTwiceItShouldNotReceiveHandleMessage
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/BaseDomain/Event/[Tests][Tests.BaseDomain.Event.DomainEventsTest][suite]
+    - id: 1064
+      uniqueId: Tests.dll/Tests/BaseDomain/Event/DomainEventsTest/[Tests][Tests.BaseDomain.Event.DomainEventsTest.WhenATwiceSubscribedHandlerUnsubscribesItShouldNotReceiveHandleMessage]
+      name: WhenATwiceSubscribedHandlerUnsubscribesItShouldNotReceiveHandleMessage
+      fullName: Tests.BaseDomain.Event.DomainEventsTest.WhenATwiceSubscribedHandlerUnsubscribesItShouldNotReceiveHandleMessage
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/BaseDomain/Event/[Tests][Tests.BaseDomain.Event.DomainEventsTest][suite]
+    - id: 1101
+      uniqueId: Tests.dll/Tests/[CoreDomain][suite]
+      name: CoreDomain
+      fullName: Tests.CoreDomain
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1103
+      uniqueId: Tests.dll/Tests/CoreDomain/[Tests][Tests.CoreDomain.Entity][suite]
+      name: Entity
+      fullName: Tests.CoreDomain.Entity
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1101
+      parentUniqueId: Tests.dll/Tests/[CoreDomain][suite]
+    - id: 1051
+      uniqueId: Tests.dll/Tests/CoreDomain/Entity/[Tests][Tests.CoreDomain.Entity.BeatTest][suite]
+      name: BeatTest
+      fullName: Tests.CoreDomain.Entity.BeatTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1103
+      parentUniqueId: Tests.dll/Tests/CoreDomain/[Tests][Tests.CoreDomain.Entity][suite]
+    - id: 1052
+      uniqueId: Tests.dll/Tests/CoreDomain/Entity/BeatTest/[Tests][Tests.CoreDomain.Entity.BeatTest.BeatHaveEmojiId]
+      name: BeatHaveEmojiId
+      fullName: Tests.CoreDomain.Entity.BeatTest.BeatHaveEmojiId
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Entity/[Tests][Tests.CoreDomain.Entity.BeatTest][suite]
+    - id: 1054
+      uniqueId: Tests.dll/Tests/CoreDomain/Entity/BeatTest/[Tests][Tests.CoreDomain.Entity.BeatTest.FreshCreatedBeatHaveInvalidEmojisId]
+      name: FreshCreatedBeatHaveInvalidEmojisId
+      fullName: Tests.CoreDomain.Entity.BeatTest.FreshCreatedBeatHaveInvalidEmojisId
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Entity/[Tests][Tests.CoreDomain.Entity.BeatTest][suite]
+    - id: 1053
+      uniqueId: Tests.dll/Tests/CoreDomain/Entity/BeatTest/[Tests][Tests.CoreDomain.Entity.BeatTest.IfEmojiIdIsSetAnEventIsFired]
+      name: IfEmojiIdIsSetAnEventIsFired
+      fullName: Tests.CoreDomain.Entity.BeatTest.IfEmojiIdIsSetAnEventIsFired
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1051
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Entity/[Tests][Tests.CoreDomain.Entity.BeatTest][suite]
+    - id: 1102
+      uniqueId: Tests.dll/Tests/CoreDomain/[Tests][Tests.CoreDomain.Service][suite]
+      name: Service
+      fullName: Tests.CoreDomain.Service
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1101
+      parentUniqueId: Tests.dll/Tests/[CoreDomain][suite]
+    - id: 1018
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.CreationProcess][suite]
+      name: CreationProcess
+      fullName: Tests.CoreDomain.Service.CreationProcess
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1102
+      parentUniqueId: Tests.dll/Tests/CoreDomain/[Tests][Tests.CoreDomain.Service][suite]
+    - id: 1023
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/CreationProcess/[Tests][Tests.CoreDomain.Service.CreationProcess.ByDefaultCreationProcessEnablesAllCategories]
+      name: ByDefaultCreationProcessEnablesAllCategories
+      fullName: Tests.CoreDomain.Service.CreationProcess.ByDefaultCreationProcessEnablesAllCategories
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.CreationProcess][suite]
+    - id: 1019
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/CreationProcess/[Tests][Tests.CoreDomain.Service.CreationProcess.ByDefaultTheCreationProcessServiceHasNoneInCurrentOpenedCategory]
+      name: ByDefaultTheCreationProcessServiceHasNoneInCurrentOpenedCategory
+      fullName: Tests.CoreDomain.Service.CreationProcess.ByDefaultTheCreationProcessServiceHasNoneInCurrentOpenedCategory
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.CreationProcess][suite]
+    - id: 1020
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/CreationProcess/[Tests][Tests.CoreDomain.Service.CreationProcess.WhenTryToSwitchCategoryMethodIsCalledCategoryOpenedDomainEventOccurs]
+      name: WhenTryToSwitchCategoryMethodIsCalledCategoryOpenedDomainEventOccurs
+      fullName: Tests.CoreDomain.Service.CreationProcess.WhenTryToSwitchCategoryMethodIsCalledCategoryOpenedDomainEventOccurs
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.CreationProcess][suite]
+    - id: 1022
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/CreationProcess/[Tests][Tests.CoreDomain.Service.CreationProcess.WhenTryToSwitchCategoryMethodIsCalledTheCurrentCategoryIsChanged]
+      name: WhenTryToSwitchCategoryMethodIsCalledTheCurrentCategoryIsChanged
+      fullName: Tests.CoreDomain.Service.CreationProcess.WhenTryToSwitchCategoryMethodIsCalledTheCurrentCategoryIsChanged
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.CreationProcess][suite]
+    - id: 1021
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/CreationProcess/[Tests][Tests.CoreDomain.Service.CreationProcess.WhenTryToSwitchCategoryMethodIsCalledWithCurrentCategoryTheCategoryOpenedDomainEventDoesNotOccur]
+      name: WhenTryToSwitchCategoryMethodIsCalledWithCurrentCategoryTheCategoryOpenedDomainEventDoesNotOccur
+      fullName: Tests.CoreDomain.Service.CreationProcess.WhenTryToSwitchCategoryMethodIsCalledWithCurrentCategoryTheCategoryOpenedDomainEventDoesNotOccur
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.CreationProcess][suite]
+    - id: 1024
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+      name: TweakCreationProcessTest
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1102
+      parentUniqueId: Tests.dll/Tests/CoreDomain/[Tests][Tests.CoreDomain.Service][suite]
+    - id: 1039
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingImageTheUserCanNotRemoveImageWithAnotherId]
+      name: AfterAddingImageTheUserCanNotRemoveImageWithAnotherId
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingImageTheUserCanNotRemoveImageWithAnotherId
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1040
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingImageTheUserCanNotRemoveItTwiceOrMore]
+      name: AfterAddingImageTheUserCanNotRemoveItTwiceOrMore
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingImageTheUserCanNotRemoveItTwiceOrMore
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1038
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingImageTheUserCanRemoveIt]
+      name: AfterAddingImageTheUserCanRemoveIt
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingImageTheUserCanRemoveIt
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1046
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingObject3dTheUserCanNotRemoveItTwiceOrMore]
+      name: AfterAddingObject3dTheUserCanNotRemoveItTwiceOrMore
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingObject3dTheUserCanNotRemoveItTwiceOrMore
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1045
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingObject3dTheUserCanNotRemoveObject3dWithAnotherId]
+      name: AfterAddingObject3dTheUserCanNotRemoveObject3dWithAnotherId
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingObject3dTheUserCanNotRemoveObject3dWithAnotherId
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1044
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingObject3dTheUserCanRemoveIt]
+      name: AfterAddingObject3dTheUserCanRemoveIt
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingObject3dTheUserCanRemoveIt
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1037
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingStickerTheUserCanNotRemoveItTwiceOrMore]
+      name: AfterAddingStickerTheUserCanNotRemoveItTwiceOrMore
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingStickerTheUserCanNotRemoveItTwiceOrMore
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1036
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingStickerTheUserCanNotRemoveStickerWithAnotherId]
+      name: AfterAddingStickerTheUserCanNotRemoveStickerWithAnotherId
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingStickerTheUserCanNotRemoveStickerWithAnotherId
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1035
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingStickerTheUserCanRemoveIt]
+      name: AfterAddingStickerTheUserCanRemoveIt
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingStickerTheUserCanRemoveIt
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1043
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingTextTheUserCanNotRemoveItTwiceOrMore]
+      name: AfterAddingTextTheUserCanNotRemoveItTwiceOrMore
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingTextTheUserCanNotRemoveItTwiceOrMore
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1042
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingTextTheUserCanNotRemoveTextWithAnotherId]
+      name: AfterAddingTextTheUserCanNotRemoveTextWithAnotherId
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingTextTheUserCanNotRemoveTextWithAnotherId
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1041
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingTextTheUserCanRemoveIt]
+      name: AfterAddingTextTheUserCanRemoveIt
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterAddingTextTheUserCanRemoveIt
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1034
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterCreationOfTweakServiceTheUserCanAdd3dObjectToTheBeat]
+      name: AfterCreationOfTweakServiceTheUserCanAdd3dObjectToTheBeat
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterCreationOfTweakServiceTheUserCanAdd3dObjectToTheBeat
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1032
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterCreationOfTweakServiceTheUserCanAddImage]
+      name: AfterCreationOfTweakServiceTheUserCanAddImage
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterCreationOfTweakServiceTheUserCanAddImage
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1031
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterCreationOfTweakServiceTheUserCanAddSticker]
+      name: AfterCreationOfTweakServiceTheUserCanAddSticker
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterCreationOfTweakServiceTheUserCanAddSticker
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1033
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.AfterCreationOfTweakServiceTheUserCanAddText]
+      name: AfterCreationOfTweakServiceTheUserCanAddText
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.AfterCreationOfTweakServiceTheUserCanAddText
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1026
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.ByDefaultTheTweakCreationProcessServiceHasNoneInCurrentOpenedCategory]
+      name: ByDefaultTheTweakCreationProcessServiceHasNoneInCurrentOpenedCategory
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.ByDefaultTheTweakCreationProcessServiceHasNoneInCurrentOpenedCategory
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1025
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.ByDefaultTweakCreationProcessEnablesStickerImageTextObject3dPublishCategories]
+      name: ByDefaultTweakCreationProcessEnablesStickerImageTextObject3dPublishCategories
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.ByDefaultTweakCreationProcessEnablesStickerImageTextObject3dPublishCategories
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1047
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.IfStickerWasAddedTheUserCanNotAddImageOrTextOrObject3d]
+      name: IfStickerWasAddedTheUserCanNotAddImageOrTextOrObject3d
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.IfStickerWasAddedTheUserCanNotAddImageOrTextOrObject3d
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1049
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.RequestObjectSelectionForStickerSuccedesOnlyForTheSameId]
+      name: RequestObjectSelectionForStickerSuccedesOnlyForTheSameId
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.RequestObjectSelectionForStickerSuccedesOnlyForTheSameId
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1050
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.SelectionOfStickerWorksOnlyInTheStickerCategory]
+      name: SelectionOfStickerWorksOnlyInTheStickerCategory
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.SelectionOfStickerWorksOnlyInTheStickerCategory
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1030
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.TryToSwitchCategoryMethodChangesOnlyToStickerImageTextObject3dCategory]
+      name: TryToSwitchCategoryMethodChangesOnlyToStickerImageTextObject3dCategory
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.TryToSwitchCategoryMethodChangesOnlyToStickerImageTextObject3dCategory
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1048
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.TryToSwitchCategoryWillNotWorkIfSomethingWasAddedBefore]
+      name: TryToSwitchCategoryWillNotWorkIfSomethingWasAddedBefore
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.TryToSwitchCategoryWillNotWorkIfSomethingWasAddedBefore
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1027
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.WhenTryToSwitchCategoryMethodIsCalledCategoryOpenedDomainEventOccurs]
+      name: WhenTryToSwitchCategoryMethodIsCalledCategoryOpenedDomainEventOccurs
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.WhenTryToSwitchCategoryMethodIsCalledCategoryOpenedDomainEventOccurs
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1029
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.WhenTryToSwitchCategoryMethodIsCalledTheCurrentCategoryIsChanged]
+      name: WhenTryToSwitchCategoryMethodIsCalledTheCurrentCategoryIsChanged
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.WhenTryToSwitchCategoryMethodIsCalledTheCurrentCategoryIsChanged
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1028
+      uniqueId: Tests.dll/Tests/CoreDomain/Service/TweakCreationProcessTest/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest.WhenTryToSwitchCategoryMethodIsCalledWithCurrentCategoryTheCategoryOpenedDomainEventDoesNotOccur]
+      name: WhenTryToSwitchCategoryMethodIsCalledWithCurrentCategoryTheCategoryOpenedDomainEventDoesNotOccur
+      fullName: Tests.CoreDomain.Service.TweakCreationProcessTest.WhenTryToSwitchCategoryMethodIsCalledWithCurrentCategoryTheCategoryOpenedDomainEventDoesNotOccur
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/Tests/CoreDomain/Service/[Tests][Tests.CoreDomain.Service.TweakCreationProcessTest][suite]
+    - id: 1100
+      uniqueId: Tests.dll/Tests/[Tests][Tests.DataValues][suite]
+      name: DataValues
+      fullName: Tests.DataValues
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1015
+      uniqueId: Tests.dll/Tests/DataValues/[Tests][Tests.DataValues.UserNameTest][suite]
+      name: UserNameTest
+      fullName: Tests.DataValues.UserNameTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1100
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.DataValues][suite]
+    - id: 1017
+      uniqueId: Tests.dll/Tests/DataValues/UserNameTest/[Tests][Tests.DataValues.UserNameTest.ShouldFail]
+      name: ShouldFail
+      fullName: Tests.DataValues.UserNameTest.ShouldFail
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: Tests.dll/Tests/DataValues/[Tests][Tests.DataValues.UserNameTest][suite]
+    - id: 1016
+      uniqueId: Tests.dll/Tests/DataValues/UserNameTest/[Tests][Tests.DataValues.UserNameTest.ShouldSuccess]
+      name: ShouldSuccess
+      fullName: Tests.DataValues.UserNameTest.ShouldSuccess
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: Tests.dll/Tests/DataValues/[Tests][Tests.DataValues.UserNameTest][suite]
+    - id: 1099
+      uniqueId: Tests.dll/Tests/[Tests][Tests.Presentation][suite]
+      name: Presentation
+      fullName: Tests.Presentation
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1001
+      uniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.MaterialPoolTest][suite]
+      name: MaterialPoolTest
+      fullName: Tests.Presentation.MaterialPoolTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1099
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.Presentation][suite]
+    - id: 1003
+      uniqueId: Tests.dll/Tests/Presentation/MaterialPoolTest/[Tests][Tests.Presentation.MaterialPoolTest.CategoryNameShouldBeNotEmpty]
+      name: CategoryNameShouldBeNotEmpty
+      fullName: Tests.Presentation.MaterialPoolTest.CategoryNameShouldBeNotEmpty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.MaterialPoolTest][suite]
+    - id: 1005
+      uniqueId: Tests.dll/Tests/Presentation/MaterialPoolTest/[Tests][Tests.Presentation.MaterialPoolTest.TheAssetReferenceShoulBeSet]
+      name: TheAssetReferenceShoulBeSet
+      fullName: Tests.Presentation.MaterialPoolTest.TheAssetReferenceShoulBeSet
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.MaterialPoolTest][suite]
+    - id: 1006
+      uniqueId: Tests.dll/Tests/Presentation/MaterialPoolTest/[Tests][Tests.Presentation.MaterialPoolTest.TheIdShouldBeTheSameAsAssetName]
+      name: TheIdShouldBeTheSameAsAssetName
+      fullName: Tests.Presentation.MaterialPoolTest.TheIdShouldBeTheSameAsAssetName
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.MaterialPoolTest][suite]
+    - id: 1004
+      uniqueId: Tests.dll/Tests/Presentation/MaterialPoolTest/[Tests][Tests.Presentation.MaterialPoolTest.TheNameOf3dObjectShouldBeNotEmpty]
+      name: TheNameOf3dObjectShouldBeNotEmpty
+      fullName: Tests.Presentation.MaterialPoolTest.TheNameOf3dObjectShouldBeNotEmpty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.MaterialPoolTest][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/Presentation/MaterialPoolTest/[Tests][Tests.Presentation.MaterialPoolTest.ThereIsAPoolThereAtGivenPath]
+      name: ThereIsAPoolThereAtGivenPath
+      fullName: Tests.Presentation.MaterialPoolTest.ThereIsAPoolThereAtGivenPath
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.MaterialPoolTest][suite]
+    - id: 1007
+      uniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.Object3dPoolTest][suite]
+      name: Object3dPoolTest
+      fullName: Tests.Presentation.Object3dPoolTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1099
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.Presentation][suite]
+    - id: 1009
+      uniqueId: Tests.dll/Tests/Presentation/Object3dPoolTest/[Tests][Tests.Presentation.Object3dPoolTest.CategoryNameShouldBeNotEmpty]
+      name: CategoryNameShouldBeNotEmpty
+      fullName: Tests.Presentation.Object3dPoolTest.CategoryNameShouldBeNotEmpty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.Object3dPoolTest][suite]
+    - id: 1014
+      uniqueId: Tests.dll/Tests/Presentation/Object3dPoolTest/[Tests][Tests.Presentation.Object3dPoolTest.StringParseGitDescribeCommandTest]
+      name: StringParseGitDescribeCommandTest
+      fullName: Tests.Presentation.Object3dPoolTest.StringParseGitDescribeCommandTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.Object3dPoolTest][suite]
+    - id: 1011
+      uniqueId: Tests.dll/Tests/Presentation/Object3dPoolTest/[Tests][Tests.Presentation.Object3dPoolTest.TheAssetReferenceShoulBeSet]
+      name: TheAssetReferenceShoulBeSet
+      fullName: Tests.Presentation.Object3dPoolTest.TheAssetReferenceShoulBeSet
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.Object3dPoolTest][suite]
+    - id: 1012
+      uniqueId: Tests.dll/Tests/Presentation/Object3dPoolTest/[Tests][Tests.Presentation.Object3dPoolTest.TheIdShouldBeTheSameAsAssetName]
+      name: TheIdShouldBeTheSameAsAssetName
+      fullName: Tests.Presentation.Object3dPoolTest.TheIdShouldBeTheSameAsAssetName
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.Object3dPoolTest][suite]
+    - id: 1010
+      uniqueId: Tests.dll/Tests/Presentation/Object3dPoolTest/[Tests][Tests.Presentation.Object3dPoolTest.TheNameOf3dObjectShouldBeNotEmpty]
+      name: TheNameOf3dObjectShouldBeNotEmpty
+      fullName: Tests.Presentation.Object3dPoolTest.TheNameOf3dObjectShouldBeNotEmpty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.Object3dPoolTest][suite]
+    - id: 1008
+      uniqueId: Tests.dll/Tests/Presentation/Object3dPoolTest/[Tests][Tests.Presentation.Object3dPoolTest.ThereIsAPoolThereAtGivenPath]
+      name: ThereIsAPoolThereAtGivenPath
+      fullName: Tests.Presentation.Object3dPoolTest.ThereIsAPoolThereAtGivenPath
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.Object3dPoolTest][suite]
+    - id: 1013
+      uniqueId: Tests.dll/Tests/Presentation/Object3dPoolTest/[Tests][Tests.Presentation.Object3dPoolTest.ThereShouldBeNoEmptySnapFeatures]
+      name: ThereShouldBeNoEmptySnapFeatures
+      fullName: Tests.Presentation.Object3dPoolTest.ThereShouldBeNoEmptySnapFeatures
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: Tests.dll/Tests/Presentation/[Tests][Tests.Presentation.Object3dPoolTest][suite]
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 25c5fd5e
+      m_LastClickedID: 1593689381
+      m_ExpandedIDs: 10fbd99e7751b3a0a1cebba320f07ba7f2fa6ba83419efab76accfcdf954f6cde557abf70073bd095c2efa155561491ad549ad28413e283843cbc8384eac2d3e8359db417667bd42be99fd43921e19455f4b654607f1a54e25c5fd5eb61e33638df52b65ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 373
+    y: 73
+    width: 1077
+    height: 539
+  m_ViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -2222613980916054423, guid: 03aa3e935513dc245ac2e59fe755ba16, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 03aa3e935513dc245ac2e59fe755ba16, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -2222613980916054423, guid: 03aa3e935513dc245ac2e59fe755ba16, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 633
+    width: 1451
+    height: 366
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scenes
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Scenes
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: D:\Repos\SniperCinematic
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1e860100
+    m_LastClickedID: 99870
+    m_ExpandedIDs: 0000000068e400006ae400006ce400006ee4000070e4000072e400004ce600002286010000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 0000000068e400006ae400006ce400006ee4000070e4000072e400004ce600002286010000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000c22f00000e3c0000de5e00001a490000867e00004273000084980000285b0000e879000056090100c85d0000c05d00000a2f0100202f0100ca5d0000062f0100c0cf000040260100382601008c7200009cf3000016180100662601009e5f0000d0ed0000985f0000eada0000980a0100b0470100a8470100e8670000a4bc00002a8c0000686d00008cd600003c9c00006a960000526d0000586d0000ac6d00007cf00000d0d00000f2da00006455010022d802003e070100326200005a540000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 240
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 633
+    width: 1451
+    height: 366
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 59178
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 749
+    width: 1451
+    height: 250
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f817a38900380be47942905e17e7d39b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Timeline
+    m_Image: {fileID: -9173288242387172643, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 633
+    width: 1451
+    height: 366
+  m_ViewDataDictionary: {fileID: 0}
+  m_Preferences:
+    playRangeLoopMode: 1
+    editType: 0
+    timeReferenceMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_SequenceHierarchy: {fileID: 0}
+  m_SequencePath:
+    m_SelectionRoot: 0
+    m_SubElements: []
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1452
+    y: 73
+    width: 467
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 270
+    m_ControlHash: 1412526313
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &24
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Project Settings
+    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1451
+    y: 73
+    width: 468
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_PosLeft: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 0}
+  m_Scope: 1
+  m_SplitterFlex: 0.4012945
+--- !u!114 &25
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 390, y: 390}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Lighting
+    m_Image: {fileID: -1347227620855488341, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1452
+    y: 73
+    width: 467
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}

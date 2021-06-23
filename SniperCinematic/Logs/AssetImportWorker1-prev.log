@@ -1,0 +1,311 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.2f1 (e5d502d80fbb) revision 15062274'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.985; Version 2009; 64bit' Language: 'pt' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Repos/SniperCinematic
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54576
+Successfully changed project path to: D:/Repos/SniperCinematic
+D:/Repos/SniperCinematic
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 103.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Repos/SniperCinematic/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001842 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 99.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.735 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.5 MB.
+System memory in use after: 113.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3330.
+Total: 3.128900 ms (FindLiveObjects: 0.384700 ms CreateObjectMapping: 0.102100 ms MarkObjects: 2.461700 ms  DeleteObjects: 0.179000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@WalkingArmed.FBX
+  artifactKey: Guid(1c08ffe07302aa9489b64bfe1e51cebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@WalkingArmed.FBX using Guid(1c08ffe07302aa9489b64bfe1e51cebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c897b7bb2757965da7bdbc7a1c9654') in 0.272966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Models/AssaultCyborg/Animation
+  artifactKey: Guid(a1b181d1e41e9c84cbf1f34b8d91800f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Animation using Guid(a1b181d1e41e9c84cbf1f34b8d91800f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99b240f10ef30975ad787bb4f4c6548') in 0.007427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@RunningArmed.FBX
+  artifactKey: Guid(e0a3f1b0a46542946bdf9e4926f6896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@RunningArmed.FBX using Guid(e0a3f1b0a46542946bdf9e4926f6896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3272ec6ef12b15715d566aa3d23580fb') in 0.052036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Models/AssaultCyborg/Animation/Player.controller
+  artifactKey: Guid(f03ab6d0c4d382f48a3d43123be7b581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Animation/Player.controller using Guid(f03ab6d0c4d382f48a3d43123be7b581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4b6ab4518f78d98f176fce1cc3f7ae') in 0.017809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg2.FBX
+  artifactKey: Guid(4ee9f92661fea4a4399e48f3e77f3b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg2.FBX using Guid(4ee9f92661fea4a4399e48f3e77f3b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a0c3dfbba2df62a837e81b03354b60') in 0.042776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.727936 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@RunningArmed.FBX
+  artifactKey: Guid(e0a3f1b0a46542946bdf9e4926f6896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@RunningArmed.FBX using Guid(e0a3f1b0a46542946bdf9e4926f6896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35170f830b99d19fc21a9b3efe6df19d') in 0.094078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.350464 seconds.
+  path: Assets/Sniper.controller
+  artifactKey: Guid(03aa3e935513dc245ac2e59fe755ba16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sniper.controller using Guid(03aa3e935513dc245ac2e59fe755ba16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935342f36c7d2a1a7c194b4c8cd52896') in 0.053846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.570417 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@WalkingArmed.FBX
+  artifactKey: Guid(1c08ffe07302aa9489b64bfe1e51cebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@WalkingArmed.FBX using Guid(1c08ffe07302aa9489b64bfe1e51cebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6b8d9b7f4139e9de665cf445091c90') in 0.051166 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.326274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.195 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2847 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3344.
+Total: 2.533600 ms (FindLiveObjects: 0.456600 ms CreateObjectMapping: 0.087800 ms MarkObjects: 1.885200 ms  DeleteObjects: 0.102400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1035.868522 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingStandingUp.FBX
+  artifactKey: Guid(59af147c15ecae246b1790edc5b69dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingStandingUp.FBX using Guid(59af147c15ecae246b1790edc5b69dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd088fc8935d4b4d81f55c1d655a8209b') in 1.389877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.670081 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingIdle.FBX
+  artifactKey: Guid(2d216e092577fd642b2f1f0644437e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingIdle.FBX using Guid(2d216e092577fd642b2f1f0644437e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203bed90418f96d46407bad5f5ea1e5f') in 0.013487 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.054880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.469 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2847 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.0 MB.
+System memory in use after: 130.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3381.
+Total: 2.162000 ms (FindLiveObjects: 0.311500 ms CreateObjectMapping: 0.074900 ms MarkObjects: 1.684800 ms  DeleteObjects: 0.089800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.623390 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingIdle.FBX
+  artifactKey: Guid(2d216e092577fd642b2f1f0644437e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingIdle.FBX using Guid(2d216e092577fd642b2f1f0644437e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0d1833e0394e51e1d2577a7206fd53') in 0.027197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.100325 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg2.FBX
+  artifactKey: Guid(4ee9f92661fea4a4399e48f3e77f3b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg2.FBX using Guid(4ee9f92661fea4a4399e48f3e77f3b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd3d235ed85f895b0ebba0dd7bc4b17') in 0.087824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.344080 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@Aiming.FBX
+  artifactKey: Guid(a3d0780ac3f6354419d994ede11a69ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@Aiming.FBX using Guid(a3d0780ac3f6354419d994ede11a69ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2875be81b962f6398d8be482cd7800') in 0.038644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.185053 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingCrouching.FBX
+  artifactKey: Guid(d97ec9de6da47484e90b50f0f3ccaf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingCrouching.FBX using Guid(d97ec9de6da47484e90b50f0f3ccaf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ba555732e36960650e1e2dec000425') in 0.063711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.637985 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingIdle.FBX
+  artifactKey: Guid(2d216e092577fd642b2f1f0644437e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingIdle.FBX using Guid(2d216e092577fd642b2f1f0644437e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9089a788d403bfb1150fd5fe468d67b') in 0.006698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.587278 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingStandingUp.FBX
+  artifactKey: Guid(59af147c15ecae246b1790edc5b69dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@AimingStandingUp.FBX using Guid(59af147c15ecae246b1790edc5b69dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0e99d248ce49652ec57122bb056472') in 0.046780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.242756 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@CrouchedIdle.FBX
+  artifactKey: Guid(71ba07c2aeb21af44826d01ac81e00e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@CrouchedIdle.FBX using Guid(71ba07c2aeb21af44826d01ac81e00e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30867cc380dcda0e4779bcd89bf577fa') in 0.064731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.838475 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@DyingArmed.FBX
+  artifactKey: Guid(81fcf373769b704409cae1b9950115b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@DyingArmed.FBX using Guid(81fcf373769b704409cae1b9950115b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce12d31d6ae090a8594f63d296dd5100') in 0.047602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.950374 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@ShootCrouched.FBX
+  artifactKey: Guid(37cded110ea348f4fba27fa68ff4ecec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/AssaultCyborg@ShootCrouched.FBX using Guid(37cded110ea348f4fba27fa68ff4ecec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750a96edd86fe9c382ebcce276cdd379') in 0.084644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 353.505207 seconds.
+  path: Assets/Models/AssaultCyborg/Meshes/Muzzle1.FBX
+  artifactKey: Guid(52fb49b52a6ebba4297b09fded839a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/Meshes/Muzzle1.FBX using Guid(52fb49b52a6ebba4297b09fded839a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19f8d4c3f29741f0035068de9e22b0b') in 0.280968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_M4.fbx
+  artifactKey: Guid(7350c439920074a58a63ca710c013777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_M4.fbx using Guid(7350c439920074a58a63ca710c013777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58bc7cfb5d9422e1d34e28ce03c9363') in 0.118004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/JMO Assets/WarFX/Mesh/Plane1x1.FBX
+  artifactKey: Guid(9d0862121c112ec4abc229920df08581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Mesh/Plane1x1.FBX using Guid(9d0862121c112ec4abc229920df08581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa18509690bc720ec34fdf9b09a1d40') in 0.066656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 296.662684 seconds.
+  path: Assets/Models/AssaultCyborg/AssaultCyborgAnimTest.unity
+  artifactKey: Guid(9eb99d3a28857aa46aed227f2623da80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/AssaultCyborgAnimTest.unity using Guid(9eb99d3a28857aa46aed227f2623da80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e167465b32ff4b4c1f3c0f120876f9') in 0.024227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.332479 seconds.
+  path: Assets/Models/AssaultCyborg/WhiteAssaultCyborgAnimTest.unity
+  artifactKey: Guid(520d6f8157f1be34c945339dab6996b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/AssaultCyborg/WhiteAssaultCyborgAnimTest.unity using Guid(520d6f8157f1be34c945339dab6996b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10148c922886495a18a9ff2430a86c2') in 0.008070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.877081 seconds.
+  path: Assets/Scenes/Cutscene.unity
+  artifactKey: Guid(36ad4f1906cbc474aa09d3da7d5b6c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cutscene.unity using Guid(36ad4f1906cbc474aa09d3da7d5b6c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e8685553de35748463b5efdde06af2') in 0.007438 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2847 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3386.
+Total: 3.073800 ms (FindLiveObjects: 0.448900 ms CreateObjectMapping: 0.091800 ms MarkObjects: 2.426900 ms  DeleteObjects: 0.105000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2847 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3389.
+Total: 2.250800 ms (FindLiveObjects: 0.328500 ms CreateObjectMapping: 0.072900 ms MarkObjects: 1.724200 ms  DeleteObjects: 0.123900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
